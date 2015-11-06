@@ -1,0 +1,29 @@
+mmcore.SetCookie('mmid','495638883|EQAAAArpAWOvlAwAAA==',365,1);mmcore.SetCookie('pd','575948571|EwAAAAoBQukBY6+UDCsRxIoGAGxiN+2g5tJIDwAAAGwOdP0j3tJIAAAAAP//////////ABF3d3cubWF0YWxhbi5jby51awKeDAUAAQAAAAAAAAAADVAAAEy+AAANUAAABQC0MAAAAE7mrHiUDAD/////AZQMnwz//wUAAAEAAAAAAZKkAAAS0gAAAZhAAAABAAAAoU0AAADKT1WKlAwA/////wGUDJ8M//8FAAABAAAAAAHc6wAALC8BAACRNgAAAJgJwqSUDAD/////AZQMnwz//wQAAAEAAAAAAoSzAAB25wAAhbMAAHnnAAABDVAAAAMAAACiTQAAABLTb52UDAD/////AZQMnwz//wQAAAEAAAAABd3rAAAvLwEA3usAADIvAQDf6wAANC8BAODrAAA2LwEA4esAADcvAQAAelkAAABXXb/QngwA/////wGeDJ8M//8EAAABAAAAAAGgCQEAH1UBAAGYQAAAAQAAAAAAAAFF',365);mmcore.SetCookie('srv','ldnvwcgeu04',365);(function(){if(typeof(mmcore.GenInfo)!='object')mmcore.GenInfo={};mmcore.EH=function(e){var s=e.message+'\r\n';if(!window.mm_error)window.mm_error=s;else window.mm_error+=s;};
+mmcore.GenInfo['T36_Security_info_in_footer']={'t36_variant1':'Default'};
+var tc={'T36_Variant1':{'h':[],'c':[],'l':[]}}
+try{
+// Attach Style 0.0.0 http://gitlab.maxymiser.com/mmcore-attach-style
+(function(){'use strict';mmcore.AttachStyle=function(){var c={STYLE_ID:"mm-style",createStyle:function(){var b=document.createElement("style");b.type="text/css";return b},appendCssToStyle:function(){var b,a;"styleSheet"in c.createStyle()?(b=function(a){return a.styleSheet.cssText},a=function(a,b){a.styleSheet.cssText=b}):(b=function(a){return a.innerHTML},a=function(a,b){a.innerHTML=b});return(c.appendCssToStyle=function(c,d){a(d,b(d)+c)}).apply(this,arguments)}};return function(b){var a=document.getElementById(c.STYLE_ID);a||(a=c.createStyle(),a.id=c.STYLE_ID,function(){this.parentNode.insertBefore(a,this)}.call(document.getElementsByTagName("head")[0].lastChild));c.appendCssToStyle(b,a)}}()})();
+
+}catch(err){mmcore.EH(err);}
+try{
+;(function(){
+	mmcore.$(document)
+		.on('click', '#mmimage1', function() {
+			mmcore.$Action('T36_FooterClicks', 1, 'Cards');
+			mmcore.request();
+		})
+		.on('click', '#mmimage2', function() {
+			mmcore.$Action('T36_FooterClicks', 1, 'SecurityMarks');
+			mmcore.request();
+		})
+    	
+    	.on('click', '#mmimagea', function() {
+			mmcore.$Action('T36_FooterClicks', 1, 'SecurityMarks');
+			mmcore.request();
+		})
+}());
+}catch(err){mmcore.EH(err);}
+mmcore._RenderOnLoad();if(typeof mmcore._callback=='object'&&typeof mmcore._callback[3]=='function'){try{mmcore._callback[3]();}catch(err){mmcore.EH(err);}
+finally{mmcore._callback[3]=null;}}
+})();

@@ -1,0 +1,106 @@
+#main .honeypotwrapper a {
+color:#4d4e53;
+border-bottom:1px dotted #4d4e53;
+}
+
+#main .honeypotwrapper a:hover {
+color:#f2012e;
+border-bottom:1px dotted #f2012e;
+text-decoration:none;
+}
+
+#main .honeypotwrapper ol {
+margin-bottom:10px;
+margin-left:5px;
+position:outside; 
+padding:0;
+}
+
+#main .honeypotwrapper ol li {
+
+list-style-type:disc;
+color:#000;
+}
+
+.view-cms {
+  background: #fff; 
+}
+
+.view {
+    padding: 0 0;
+}
+
+#main p { 
+  margin-bottom: 16px; 
+}
+
+.imgtest {
+
+width: 500px;
+height 500px;
+background: red;
+float: left;
+}
+
+
+.view-cms h1 {
+	color: #e31818;
+	font: bold 17px "ITC Avante Garde Gothic","Century Gothic",Arial,Helvetica,sans-serif;
+	font-weight: bold;
+	margin: 10px 0 20px 0;
+}
+
+.view-cms h2 {
+	color: #0F0F0F;
+	font-size: 1.3em;
+	font-weight: bold;
+	margin: 15px 0 6px;
+}
+
+strong { 
+	font-weight: bold; 
+}
+
+#main table {
+	margin: 8px 0 8px 0;
+}
+
+#main th, #main td { 
+	border: 1px solid #999; 
+	padding: .5em;
+}
+
+#main th {
+	background: #707171;
+	color: #fff;
+	
+}
+
+/*.view-cms ol {
+	list-style: disc inside;
+}
+
+.view-cms li {
+
+display: block;
+}
+*/
+.generic-width-wrapper {
+
+width:800px
+}
+
+
+/*christmas background*/ 
+
+html, *:root, body {
+ /*background: url("//jscsecmat.ctscdn.com/content/images/background/xmas-bg-2015.jpg") repeat-x scroll 0 0 #fff;*/
+    background: url("/asset/item/i1.0.0.0-v365814/content/images/background/xmas-bg-2015.jpg") repeat-x scroll 0 0 #fff;
+	background-position:top;
+	padding:0;
+}
+/*end of christmas background */
+.view-cms {
+    background: none repeat scroll 0 0 #fff;
+    padding-top: 10px;
+}

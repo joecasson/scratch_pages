@@ -1,0 +1,139 @@
+.view-product_list #product-list-header img {
+    width: 772px;
+	*/height: 245px;
+	/*border: 1px solid #ececec;*/
+}
+
+.view-product_list #product-list-header .copy h1 {
+    color: #343A3F;
+    font: normal 22px/30px "ITC Avante Garde Gothic","Century Gothic",Arial,Helvetica,sans-serif;
+    letter-spacing: 1pt;
+    margin-bottom: 7px;
+    margin-left: 2px;
+    margin-top: 15px;
+    padding: 0;
+    text-transform: uppercase;
+    width: 520px;
+}
+
+.ie8 .view-product_list #product-list-header .copy h1 {
+font: normal 22px/30px "ITC Avante Garde Gothic", Century Gothic",Arial,Helvetica,sans-serif;
+
+}
+
+.view-product_list #product-list-header .copy {
+    left: 120px;
+    position: absolute;
+    text-align: center;
+    top: 6px;
+	width:540px;
+}
+
+.view-product_list #product-list-header .copy .links ul {
+text-align:left;
+width:100%;
+
+}
+
+.view-product_list #product-list-header .copy .links {
+display:inline;
+width:100%;
+
+}
+
+.view-product_list #product-list-header .copy .links a {
+    color: #4d4e53;
+    text-decoration: none;
+
+	margin-right:10px;	
+	margin-bottom:20px;
+	 font: normal 12px "ITC Avante Garde Gothic","Century Gothic",Arial,Helvetica,sans-serif;
+	text-transform:uppercase;
+	
+}
+
+.ie8 .view-product_list #product-list-header .copy .links a, .ie8 .view-product_list #product-list-header .copy .links a:hover {
+font: normal 12px "ITC Avante Garde Gothic";
+}
+
+
+.view-product_list #product-list-header .copy .links a:hover {
+    color: #D3031B;
+    text-decoration: none;
+	 font: normal 12px "ITC Avante Garde Gothic","Century Gothic",Arial,Helvetica,sans-serif;
+	text-transform:uppercase;
+}
+
+.view-product_list #product-list-header .copy ul {
+  
+    padding: 0;
+   
+}
+
+.view-product_list #product-list-header .copy ul li{
+	/*display: block;
+	float: left;*/
+	padding-right:0px;
+	line-height:26px;
+}
+
+/* DO WE NEED THIS 
+.view-product_list #product-list-header .copy ul li:nth-child(3n+1){
+	clear: left;
+}
+*/
+
+#product-list-header .copy p {
+    font: 11px/17px Verdana,Arial,Helvetica,sans-serif;
+    margin-left: 2px;
+    margin-top: 7px;
+	 margin-bottom: 9px;
+    width: 100%;
+}
+
+.view-product_list #product-list-header .copy p a {
+ text-decoration: none;
+ color: #4d4e53;
+ border-bottom:1px dotted #4d4e53;
+ font: 11px/19px Verdana,Arial,Helvetica,sans-serif;
+}
+
+.view-product_list #product-list-header .copy p a:hover {
+ text-decoration: none;
+ color: #D3031B;
+ border-bottom:1px dotted #D3031B;
+ font: 11px/19px Verdana,Arial,Helvetica,sans-serif;
+}
+
+/* these styles overide the left nav headers */
+
+.view-product_list #product-list-filters {
+
+    border-right: 0;
+
+}
+
+
+.view-product_list #product-list-filters .filter-section-open h5 {
+     font: normal 12px "ITC Avante Garde Gothic","Century Gothic",Arial,Helvetica,sans-serif;
+		text-transform:uppercase;
+}
+
+.ie8 .view-product_list #product-list-filters .filter-section-open h5 {
+font: normal 12px "ITC Avante Garde Gothic";
+}
+
+
+.view-product_list #product-list-filters .filter-section h5 {
+    font: bold 12px "ITC Avante Garde Gothic","Century Gothic",Arial,Helvetica,sans-serif;
+	text-transform:uppercase;
+	
+}
+
+
+.view-product_list #product-list-filters h4 {
+    padding-bottom: 0;
+    font: normal 14px "ITC Avante Garde Gothic","Century Gothic",Arial,Helvetica,sans-serif;
+	text-transform:uppercase;
+	color: #E31818;
+}
